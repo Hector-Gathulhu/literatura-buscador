@@ -65,6 +65,11 @@ public class Principal {
                     mostarLibrosPorIdioma();
                     break;
 
+                case 0:
+                    System.out.println("Cerrando aplicacion, Gracias or consultar :) ");
+                    opcion =0;
+                    break;
+
                 default:
                     System.out.println("Opcion invalida!!");
 
